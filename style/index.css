@@ -1,0 +1,236 @@
+span{
+    color :aqua ;
+    font-weight: bold;
+}
+/* img {
+     margin-left: 500px; */
+.button{
+    background-color: rgb(87, 113, 243);
+    border: 2px solid rgb(87, 113, 243);
+    color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+.fruits{
+    list-style: none;
+    font-size: larger;
+    font-weight: 700;
+}
+.youtube{
+    background: transparent ;
+    border: 2px solid rgb(110, 157, 227);
+    
+    padding: 10px 15px;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.youtube:hover{
+    background-color: rgb(110, 157, 227);
+    color: black;
+    cursor:pointer ;
+}
+.one{
+    background-color: rgba(210, 249, 205, 0.734);
+    padding: 80px 0px;
+}
+.card1{
+ margin-bottom: 10px;
+ padding: 10px;
+ /* background: #fff; */
+ margin-top: -200px;
+ z-index: 11;
+ position: relative;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list{
+    display: flex;  
+    list-style: none;
+    gap: 20px;
+} 
+nav{
+    background: aliceblue;
+    height: 50px;
+     
+}
+.section-two{
+    background: #f0d8d8;
+    padding: 80px 0px;
+    gap: 10px;
+    z-index: 10;
+}
+.five{
+    background: url(../assets/footer.jpg);
+    padding: 80px 0px;
+    background-size: cover;
+}
+.xyz1{
+    padding: 20px;
+    background: #fff;
+   
+    
+}
+.map{
+    z-index: 11;
+    position: relative;
+    margin-top: 120px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer {
+    background-color: #2c2c2c;
+    color: #ccc;
+    padding: 40px 20px;
+    font-size: 14px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px;
+  }
+  
+  .footer-section h4 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  .footer-section li:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-section input[type="email"] {
+    padding: 8px;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section button {
+    padding: 8px 16px;
+    background-color: #416bf4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .footer-section button:hover {
+    background-color: #d4541a;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+  }
+  
+  .social-icons i {
+    margin: 0 10px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .social-icons i:hover {
+    color: #fff;
+  }
+  .abc li a {
+    text-decoration: none;
+   
+  }
+  .hero-section-text{
+    margin-bottom: 150px !important;
+
+  }
+  .hero-section-text h5{
+    font-size: 44px;
+  }
+  .social-links{
+    background: #d4cece;
+    text-align: center;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  .six {
+    background: #c1ccc2;
+    /* padding: 80px 0px; */
+    position: relative;
+    z-index: 10;
+  }
+  .six:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100px;
+    background: #d7e59f;
+  }
+  .six::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100px;
+    background: #b3e7b6;
+  }
+  .six h4 {
+    position: absolute;
+    text-align: center;
+  }
+  .hello-after {
+    z-index: 111;
+    color: #fff;
+    
+  }
+  
+  /* media query */
+  
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 920px) {
+  .card1 {
+    margin-top: -50px;
+  }
+  .hero-section-text {
+    margin-bottom: 50px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  span {
+    color: coral;
+  }
+  .fruits {
+    display: none;
+  }
+  .xyz1 {
+    margin-top: inherit;
+  }
+}
